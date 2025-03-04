@@ -36,7 +36,7 @@ const AddShipmentForm: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto p-16 bg-[rgba(255,255,255,0.2)] backdrop-blur-lg rounded-tr-2xl rounded-bl-2xl w-full text-xl 2xl:min-w-2xl">
+    <div className="container mx-auto p-6 sm:p-16 bg-[rgba(255,255,255,0.2)] backdrop-blur-lg rounded-tr-2xl rounded-bl-2xl w-full text-xl 2xl:min-w-2xl">
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 w-full">
         <h2 className="text-black text-2xl 2xl:text-4xl text-center">
           Add Shipment

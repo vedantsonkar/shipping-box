@@ -6,7 +6,7 @@ import React, {
   useCallback,
 } from "react";
 
-interface Shipment {
+export interface Shipment {
   id: string;
   receiverName: string;
   weight: number;
